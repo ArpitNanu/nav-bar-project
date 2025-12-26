@@ -85,7 +85,7 @@ const App = () => {
             Description={"Logout"}
             isCollapsed={isCollapsed}
           />
-          <div className="flex items-center justify-around ">
+          <div className="flex items-center justify-around pr-5 ">
             {!isCollapsed && (
               <Navitem
                 icon={Moon}
