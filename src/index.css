@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --background: 220 57% 93%;
+  /* lightblue  */
+  --foreground: 220 1% 53%;
+  /* white fonts */
+  --foreground-focus: 0 0% 100%;
+  /* when click font is white */
+
+  --primary: 0 0% 100%;
+  --secondary: 251 100% 98%;
+  /* search and darkmode div is light purple */
+  --primary-focus: 245 96% 68%;
+}
+
+.dark {
+  --primary: 210 5% 16%;
+  --primary-focus: 225 2% 53%;
+  --foreground: 0 0% 86%;
+}
